@@ -101,9 +101,3 @@ This project was created to practice:
 Computer Science student interested in **Web Development and Cybersecurity**.
 
 ---
-
-✅ لو حابب، أقدر كمان أعمل لك نسخة **أجمل شوية على GitHub** فيها:
-
-* صور
-* badges
-* شكل احترافي يخلي المشروع يبان أقوى في الـ **portfolio**.
