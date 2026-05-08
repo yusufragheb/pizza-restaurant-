@@ -1,9 +1,3 @@
-عملت لك **README بسيط ومرتب** يناسب مشروعك ويبان احترافي على GitHub، وفي نفس الوقت سهل ومفهوم لأي شخص يشوف المشروع.
-
-تقدر تنسخ النص ده وتحطه في ملف **`README.md`** في المشروع.
-
----
-
 # 🍕 Pizza Style – Food Ordering Website
 
 A simple **pizza ordering website** built using **HTML, CSS, and JavaScript**.
