@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza style</title>
+     <link rel="icon"  type="image/png" href="pizza-logo-with-illustration-a-piece-of-pizza-free-vector.jpg">
+
+
+    <link rel="stylesheet" href="food_ordering.css">
+</head>
+<body>
+
+    <h1>pizza style</h1>
+    <div id="inform">
+    <form>
+        <h2>pizza style</h2>
+        <h3><b>pizza style corner</b></h3>
+        <label id="fixed-size"><b><u>fixed size</u></b></label>
+        <div id="pizza-order">
+        <label for="pizza">Choose your pizza:</label>
+        <br>
+        <select name="pizza" id="pizza" required>
+            <option value="margherita">Margherita | 100 EGP</option>
+            <option value="pepperoni">Pepperoni  | 120 EGP</option>
+            <option value="chicken_ranch">Chicken Ranch  | 150 EGP</option>
+            <option value="veggie">Veggie  | 110 EGP</option>
+            <option value="bbq_chicken">BBQ Chicken  | 130 EGP</option>
+        </select>
+        <br><br>
+        </div>
+        <div id="pizza buttons">
+        <button  type="button" onclick="handleOrder() , orders()">order</button>
+        <button type="button" id="addbutton" onclick="Addorder()">add to cart</button>
+        <button type="reset" id="reset" onclick="neworder()">reset</button>
+        </div>
+   
+        <br><br>
+
+        <p id="ordertotal"></p>
+        <br>
+        <p id="orderdetails"></p>
+        <br>
+
+        <div id="pizza-ingredients">
+
+        <h3 style="text-align: center;">Pizza Ingredients:</h3>
+        <details>
+        <summary>Margherita  100 EGP</summary>
+        <small>
+            <ul>
+                <li>Tomato Sauce</li>
+                <li>Mozzarella Cheese</li>
+                <li>Fresh Basil</li>
+            </ul>
+        </small>
+        </details>
+        <br>
+        <details>
+        <summary>Pepperoni  120 EGP</summary>
+                <small>
+            <ul>
+                <li>Tomato Sauce</li>
+                <li>Mozzarella Cheese</li>
+                <li>Pepperoni</li>
+            </ul>
+        </small>
+
+        </details>
+        <br>
+        <details>
+        <summary>Chicken Ranch  150 EGP</summary>
+                <small>
+            <ul>
+                <li>Ranch Sauce</li>
+                <li>Mozzarella Cheese</li>
+                <li>Grilled Chicken</li>
+                <li>Tomato Sauce</li>
+            </ul>
+        </small>
+
+        </details>
+        <br>
+        <details>
+        <summary>Veggie  110 EGP</summary>
+                <small>
+            <ul>
+                <li>Tomato Sauce</li>
+                <li>Mozzarella Cheese</li>
+                <li>Bell Peppers</li>
+                <li>Onions</li>
+                <li>Olives</li>
+            </ul>
+        </small>
+
+        </details>
+        <br>
+        <details>
+        <summary>BBQ Chicken  130 EGP</summary>
+                <small><ul>
+                <li>BBQ Sauce</li>
+                <li>Mozzarella Cheese</li>
+                <li>Grilled Chicken</li>
+                <li>Red Onions</li>   
+                </ul></small>
+        </details>
+</div>
+    </form>
+    </div>
+            <script src="food_ordering.js"></script>
+
+        
+</body>
+</html>

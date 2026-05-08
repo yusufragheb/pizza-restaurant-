@@ -1,0 +1,15 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch chrome against localhost",
+            "url": "file:///C:/Users/user/Documents/VS%20CODE%20projects/web%20projects/food%20ordering%20project/food_ordering_pizza.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

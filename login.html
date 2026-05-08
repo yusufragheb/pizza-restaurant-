@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon"  type="image/png" href="pizza-logo-with-illustration-a-piece-of-pizza-free-vector.jpg">
+    <link rel="stylesheet" href="login.css">
+
+    <script src="food_ordering.js"></script>
+</head>
+<body style="background-image:url('e26b74bf-45ee-4e8f-9e97-6d8499907269.jpeg'); background-repeat: no-repeat; background-size: cover;">
+    <div style="text-align: center;">
+    <h1>Login</h1>
+    <form onsubmit="handleLogin(event)" method="POST">
+        <fieldset style="width: 450px; margin: auto; height: 150px; padding: 30px;">
+            <legend>pizza style</legend>
+            <div>
+        <label for="username">Username:</label>
+        <input type="email" id="username" name="username" required>
+        </div>
+        <br>
+        <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        </div>
+        <br><br>
+        <button type="submit">Login</button>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
