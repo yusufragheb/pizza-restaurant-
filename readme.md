@@ -1,40 +1,48 @@
-🍕 Pizza Style – Simple Food Ordering Website
+# 🍕 Pizza Style – Simple Food Ordering Website
 
-A simple Pizza Ordering Web App built using HTML, CSS, and JavaScript.
+A simple **Pizza Ordering Web App** built using **HTML, CSS, and JavaScript**.
 The project simulates a small pizza restaurant where users can log in, choose a pizza, add it to the cart, and view the total order price.
 
-This project was created as a beginner practice project for front-end development.
+This project was created as a **beginner practice project for front-end development**.
 
-📑 Table of Contents
-Overview
-Features
-Pizza Menu
-Technologies Used
-Project Structure
-How to Run the Project
-Future Improvements
-Author
-📌 Overview
+---
+
+# 📑 Table of Contents
+
+* Overview
+* Features
+* Pizza Menu
+* Technologies Used
+* Project Structure
+* How to Run the Project
+* Future Improvements
+* Author
+
+---
+
+# 📌 Overview
 
 The website contains two main pages:
 
-🔐 Login Page
+### 🔐 Login Page
 
-Allows the user to enter email and password before accessing the ordering page.
+Allows the user to enter email and password before accessing the ordering page. 
 
-🍕 Pizza Ordering Page
+### 🍕 Pizza Ordering Page
 
 Users can:
 
-Select a pizza from the menu
-Add pizzas to the cart
-View order details
-Calculate the total price
-Reset the order
+* Select a pizza from the menu
+* Add pizzas to the cart
+* View order details
+* Calculate the total price
+* Reset the order
 
-The interface also shows pizza ingredients for each pizza option.
+The interface also shows **pizza ingredients** for each pizza option. 
 
-✨ Features
+---
+
+# ✨ Features
 
 ✔ Simple login interface
 ✔ Pizza selection menu
@@ -44,21 +52,33 @@ The interface also shows pizza ingredients for each pizza option.
 ✔ Reset order button
 ✔ Expandable pizza ingredients list
 
-🍕 Pizza Menu
-Pizza	Price
-Margherita	100 EGP
-Pepperoni	120 EGP
-Chicken Ranch	150 EGP
-Veggie	110 EGP
-BBQ Chicken	130 EGP
+---
+
+# 🍕 Pizza Menu
+
+| Pizza         | Price   |
+| ------------- | ------- |
+| Margherita    | 100 EGP |
+| Pepperoni     | 120 EGP |
+| Chicken Ranch | 150 EGP |
+| Veggie        | 110 EGP |
+| BBQ Chicken   | 130 EGP |
 
 Each pizza also shows the ingredients such as cheese, sauce, vegetables, or chicken.
 
-🛠 Technologies Used
-HTML5 – Page structure
-CSS3 – Styling and layout
-JavaScript – Order logic and interaction
-📂 Project Structure
+---
+
+# 🛠 Technologies Used
+
+* **HTML5** – Page structure
+* **CSS3** – Styling and layout 
+* **JavaScript** – Order logic and interaction 
+
+---
+
+# 📂 Project Structure
+
+```
 pizza-restaurant
 │
 ├── login.html
@@ -68,32 +88,51 @@ pizza-restaurant
 ├── food_ordering.js
 ├── images
 └── README.md
-🚀 How to Run the Project
-Clone the repository
+```
+
+---
+
+# 🚀 How to Run the Project
+
+1. Clone the repository
+
+```
 git clone https://github.com/yusufragheb/pizza-restaurant.git
-Open the project folder
-Run the project by opening:
+```
+
+2. Open the project folder
+
+3. Run the project by opening:
+
+```
 login.html
+```
 
 in your browser.
 
-🔮 Future Improvements
+---
+
+# 🔮 Future Improvements
 
 Possible improvements for the project:
 
-Add a real authentication system
-Store orders in a database
-Add pizza size selection
-Add checkout page
-Improve UI/UX design
-Make the website responsive for mobile
-👨‍💻 Author
+* Add a real **authentication system**
+* Store orders in a **database**
+* Add **pizza size selection**
+* Add **checkout page**
+* Improve **UI/UX design**
+* Make the website **responsive for mobile**
 
-Yusuf Ragheb
+---
+
+# 👨‍💻 Author
+
+**Yusuf Ragheb**
 
 Computer Science student interested in:
 
-Web Development
-Cybersecurity
-Cloud Computing
-Networking
+* Web Development
+* Cybersecurity
+* Cloud Computing
+* Networking
+
